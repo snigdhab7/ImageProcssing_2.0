@@ -1,0 +1,86 @@
+load panda.jpg panda
+brighten 80 panda panda-brighter
+save panda-brighter.jpg panda-brighter
+vertical-flip panda panda-vertical
+save panda-vertical.jpg panda-vertical
+horizontal-flip panda-vertical panda-vertical-horizontal
+save panda-vertical-horizontal.jpg panda-vertical-horizontal
+value-component panda panda-value
+save panda-value.jpg panda-value
+luma-component panda panda-luma
+save panda-luma.jpg panda-luma
+intensity-component panda panda-intensity
+save panda-intensity.jpg panda-intensity
+blur panda panda-blur
+save panda-blur.jpg panda-blur
+sharpen panda panda-sharpen
+save panda-sharpen.jpg panda-sharpen
+sepia panda panda-sepia
+save panda-sepia.jpg panda-sepia
+greyscale panda panda-gs
+save panda-gs.jpg panda-gs
+rgb-split panda panda-red panda-green panda-blue
+rgb-combine panda-rgb-combine panda-red panda-green panda-blue
+save panda-redX.jpg panda-red
+save panda-greenX.jpg panda-green
+save panda-blueX.jpg panda-blue
+save panda-rgb-combine.jpg panda-rgb-combine
+blur panda panda-blur split 50
+save panda-blur-split.jpg panda-blur
+sharpen panda panda-sharpen split 50
+save panda-sharpen-split.jpg panda-sharpen
+sepia panda panda-sepia split 50
+save panda-sepia-split.jpg panda-sepia
+greyscale panda panda-gs split 50
+save panda-gs-split.jpg panda-gs
+load manhattan.png manhattan
+compress 10 manhattan manhattan-10
+save manhattan-10.png manhattan-10
+compress 20 manhattan manhattan-20
+save manhattan-20.png manhattan-20
+compress 30 manhattan manhattan-30
+save manhattan-30.png manhattan-30
+compress 40 manhattan manhattan-40
+save manhattan-40.png manhattan-40
+compress 50 manhattan manhattan-50
+save manhattan-50.png manhattan-50
+compress 60 manhattan manhattan-60
+save manhattan-60.png manhattan-60
+compress 70 manhattan manhattan-70
+save manhattan-70.png manhattan-70
+compress 80 manhattan manhattan-80
+save manhattan-80.png manhattan-80
+compress 90 manhattan manhattan-90
+save manhattan-90.png manhattan-90
+blur panda panda-blur split 50
+save panda-blur-split.jpg panda-blur
+sharpen panda panda-sharpen split 50
+save panda-sharpen-split.jpg panda-sharpen
+sepia panda panda-sepia split 50
+save panda-sepia-split.jpg panda-sepia
+greyscale panda panda-gs-50 split 50
+save panda-gs-split-50.jpg panda-gs-50
+histogram panda-gs-50 panda-gs-50-histogram
+save panda-gs-split-50-histogram.png panda-gs-50-histogram
+histogram panda panda-histogram
+save panda-histogram.png panda-histogram
+compress 40 panda panda-40
+save panda-compress-40.png panda-40
+histogram panda-40 panda-40-histogram
+save panda-compress-40-histogram.jpg panda-40-histogram
+compress 50 panda panda-50
+save panda-compress-50.png panda-50
+histogram panda-50 panda-50-histogram
+save panda-compress-50-histogram.jpg panda-50-histogram
+color-correct panda panda-color-corrected
+save panda-color-corrected.png panda-color-corrected
+histogram panda-color-corrected panda-color-corrected-histogram
+save panda-color-corrected-histogram.jpg panda-color-corrected-histogram
+levels-adjust 20 100 255 panda panda-levels-adjusted
+save panda-levels-adjusted.png panda-levels-adjusted
+histogram panda-levels-adjusted panda-levels-adjusted-histogram
+save panda-levels-adjusted-histogram.jpg panda-levels-adjusted-histogram
+levels-adjust 40 120 255 panda panda-levels-adjusted2
+save panda-levels-adjusted2.png panda-levels-adjusted2
+histogram panda-levels-adjusted2 panda-levels-adjusted-histogram2
+save panda-levels-adjusted-histogram2.jpg panda-levels-adjusted-histogram2
